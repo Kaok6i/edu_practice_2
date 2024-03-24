@@ -175,11 +175,6 @@ namespace RealEstateProject.Windows.Demands
             }
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void typeEstateCB_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             demandsDG.Columns.Clear();
@@ -246,7 +241,9 @@ namespace RealEstateProject.Windows.Demands
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-
+            var main = new MainWindow();
+            main.Show();
+            this.Close();
         }
     }    
 }

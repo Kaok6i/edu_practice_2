@@ -47,7 +47,7 @@ namespace RealEstateProject
 
         private void OfferBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Не реализованный функционал\nЖдите обновления программы!","Уведомление | Нет доступа");
         }
 
         private void DemandsBtn_Click(object sender, RoutedEventArgs e)
